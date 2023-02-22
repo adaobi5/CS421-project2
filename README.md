@@ -18,7 +18,12 @@ The python-2vec notebook takes in a list of the following Github repositories **
 The code automatically crawls through these repositiories looking for Python code (files that end in .py), and aggregates them into a single txt file (python_files.txt). The lines and words are counted, and everything is tokenized before it is trained using the Gensim Word2Vec model.
 
 The results below are a result of the trained Python2Vec model of the 7 Github repositories, which were aggregated into the txt file (python_files.txt).
-This file contained 1,439,996. ![Figure 1](https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
+\\
+This file contained 1,439,996 lines and thus 5,978,486 words. 
+![Figure 1](https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
+![Figure 2](https://i.postimg.cc/0rkMn6Jt/Screenshot-2023-02-21-215352.jpg)
+
+
 
 
 ### Discussions
