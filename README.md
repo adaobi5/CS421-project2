@@ -14,10 +14,11 @@ Table of Contents
 This project implemented a Python2Vec model using a Word2Vec model trained with Python code. The project involves mining public software repositories for Python code, cleaning the data, and training a Word2Vec model with the collected source code. The model will then be tested with real-life data to determine the similarity of identifiers in code. I used knowledge of mining software repositories and data cleaning, and created a Jupyter Notebook (python-2vec.ipynb) to complete the necessary steps to create a Python2Vec model.
 
 ### Results
-The python-2vec notebook takes in a list of the following Github repositories *Matplotlib*, *Sckit-Learn*, *Numpy*, *Scipy*, *Flask*, *Requests*, and *Scrapy*.
+The python-2vec notebook takes in a list of the following Github repositories **Matplotlib**, **Sckit-Learn**, **Numpy**, **Scipy**, **Flask**, **Requests**, and **Scrapy**.
 The code automatically crawls through these repositiories looking for Python code (files that end in .py), and aggregates them into a single txt file (python_files.txt). The lines and words are counted, and everything is tokenized before it is trained using the Gensim Word2Vec model.
 
-![Figure 1](https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
+The results below are a result of the trained Python2Vec model of the 7 Github repositories, which were aggregated into the txt file (python_files.txt).
+This file contained 1,439,996. ![Figure 1](https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
 
 
 ### Discussions
