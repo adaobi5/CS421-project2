@@ -90,8 +90,17 @@ The most similar and most dissimilar words can be shown in the figure below. <br
 ![Figure 5](https://i.postimg.cc/J79ZFWgx/Screenshot-2023-02-21-235150.jpg)
 
 ### Discussions
+Code2Vec and Python2Vec are both powerful models for learning code representations that can be used for tasks such as code similarity, code completion, and bug detection. However, they differ in their approach to learning code representations. <br />
 
+Code2Vec represents a code snippet as a path between two code elements, and uses this path as input to a neural network. This approach has shown promising results in capturing the context and semantics of code snippets and has achieved state-of-the-art results on several code-related tasks (Alon et al.). <br />
 
+On the other hand, Python2Vec is a Word2Vec-based model that learns continuous vector representations of Python identifiers, such as variable names and function names, based on their co-occurrence patterns in a corpus of Python code. This model shows to be promising as the similarity of the identifiers could provide us with some insights into patterns in software engineering and coding styles. For example, variable names like "math" and "numpy" that don't carry the same meaning per say, may be quite similar, could potentially decrease the readability of the codes, this in turn could cause many errors in code and confusion overall for the developer and user. <br />
+
+Both Code2Vec and Python2Vec have their strengths and weaknesses and can be used in different scenarios depending on the specific task and the nature of the code being analyzed. In general, Code2Vec may be more suitable for analyzing code snippets with complex dependencies between different code elements, while Python2Vec may be more suitable for analyzing code identifiers in a large corpus of Python code. Overall, these models represent important developments in the field of code analysis and provide powerful tools for software engineering and related fields in general. <br />
+
+### Future Work
+
+In order to enhance the way identifiers are flagged as similar or dissimilar, one could think about using different similarity metrics, or the use of different clustering algorithms.
 
 ### References
 1. https://github.com/tech-srl/code2vec
