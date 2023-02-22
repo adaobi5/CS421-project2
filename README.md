@@ -17,7 +17,7 @@ This project implemented a Python2Vec model using a Word2Vec model trained with 
 The python-2vec notebook takes in a list of the following Github repositories *Matplotlib*, *Sckit-Learn*, *Numpy*, *Scipy*, *Flask*, *Requests*, and *Scrapy*.
 The code automatically crawls through these repositiories looking for Python code (files that end in .py), and aggregates them into a single txt file (python_files.txt). The lines and words are counted, and everything is tokenized before it is trained using the Gensim Word2Vec model.
 
-![Figure 1](https://postimages.org/][img]https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
+![Figure 1](https://i.postimg.cc/dD57xq2J/Screenshot-2023-02-21-215328.jpg)
 
 
 ### Discussions
