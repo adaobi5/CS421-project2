@@ -33,7 +33,7 @@ I also tested the model on **"if"** which is another very common word used in py
 
 In addition, the results for the similarity between **"math"** and **"numpy"** gave a score of approximately 0.3. <br />
 
-As an extension, I used the model to find the 50 most common identifiers in Python from the frequencies in the python txt file which you can see below. <br />
+As an extension, I used the model to find the 50 most common identifiers in Python from the frequencies in the python txt file which you can be seen as follows: {identifier: count}. <br />
 np: 4721
 plt: 3864
 ax: 2673
